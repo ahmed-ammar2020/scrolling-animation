@@ -25,13 +25,13 @@ body {
 
 .box5,
 .box7 {
-  transform: translateX(-800px);
+  transform: translateX(-1000px);
   transition: 800ms;
 }
 
 .box6,
 .box8 {
-  transform: translateX(800px);
+  transform: translateX(1000px);
   transition: 800ms;
 
 }
