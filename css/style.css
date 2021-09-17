@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 2000px;
+  overflow-x: hidden;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: aqua;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  margin: 20px auto;
+}
+
+.box5,
+.box7 {
+  transform: translateX(-800px);
+  transition: 800ms;
+}
+
+.box6,
+.box8 {
+  transform: translateX(800px);
+  transition: 800ms;
+
+}
+
+.box5.normal,
+.box7.normal,
+.box6.normal,
+.box8.normal {
+  transform: translateX(0);
+}
